@@ -5,8 +5,13 @@ export const Menu = [
         link: 'shift-cipher'
     },
     {
+        name: 'Mono-alphabetical Substitution Cipher',
+        icon: 'dashboard',
+        link: 'mono-alphabetical-substitution-cipher'
+    },
+    {
         name: 'Vigenere Cipher',
         icon: 'dashboard',
-        link: 'virgenere-cipher'
+        link: 'vigenere-cipher'
     }
 ]

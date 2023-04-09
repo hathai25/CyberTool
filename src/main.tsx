@@ -8,7 +8,8 @@ import {
   BrowserRouter
 } from "react-router-dom";
 import ShiftCipher from './pages/ShiftCipher';
-import VirgenereCipher from './pages/VirgenereCipher';
+import MonoAlphabeticalSubstitutionCipher from './pages/MonoAlphabeticalSubstitutionCipher';
+import VigenereCipher from "./pages/VigenereCipher";
 
 ReactDOM.createRoot(document.getElementById('root') as HTMLElement).render(
   <React.StrictMode>
@@ -16,7 +17,8 @@ ReactDOM.createRoot(document.getElementById('root') as HTMLElement).render(
       <Routes>
         <Route path="/" element={<App />}>
           <Route path="shift-cipher" element={<ShiftCipher />}/>
-          <Route path="virgenere-cipher" element={<VirgenereCipher />}/>
+          <Route path="mono-alphabetical-substitution-cipher" element={<MonoAlphabeticalSubstitutionCipher />}/>
+          <Route path="vigenere-cipher" element={<VigenereCipher />}/>
         </Route>
       </Routes>
     </BrowserRouter>
